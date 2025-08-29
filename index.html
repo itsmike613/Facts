@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Facts" property="og:title">
+    <meta content="Facts that are actually interesting." property="og:description">
+    <meta content="https://itsmike613.github.io/Facts/" property="og:url">
+    <meta content="https://github.com/itsmike613/Facts/blob/main/Source/Images/logo.png?raw=true" property="og:image">
+    <meta content="#7c3aed" data-react-helmet="true" name="theme-color">
+
+    <!-- Tab -->
+    <link rel="icon" type="image/x-icon" href="Source/Images/logo.png">
+    <title>Facts</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" href="Source/Styles/index.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="category" id="category">#Science</div>
+            <div class="counter" id="counter">Fact 1 of 1</div>
+        </div>
+        <div class="fact-text" id="fact">Loading...</div>
+        <div class="copy-row">
+            <button class="copy-btn" id="prev" data-tooltip="Previous Fact"><i class="ph ph-caret-left"></i></button>
+            <button class="copy-btn" id="next" data-tooltip="Next Fact"><i class="ph ph-caret-right"></i></button>
+            <button class="copy-btn" id="random" data-tooltip="Random Fact"><i class="ph ph-shuffle"></i></button>
+            <button class="copy-btn" id="copy" data-tooltip="Copy Fact"><i class="ph ph-copy"></i></button>
+            <button class="theme-btn" id="theme" data-tooltip="Toggle Theme"><i class="ph ph-paint-brush-broad"></i></button>
+            <select class="copy-btn" id="categorySelect" data-tooltip="Select Category"></select>
+        </div>
+    </div>
+
+    <!-- Body Scripts -->
+    <script src="Source/Scripts/index.js"></script>
+</body>
+
+</html>

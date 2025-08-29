@@ -1,0 +1,136 @@
+:root {
+	--bg: #0f1724;
+	--card-bg: #0b1220;
+	--text: #e6eef8;
+	--category: #7c3aed;
+	--counter: #94a3b8;
+	--btn-bg: #1e293b;
+	--btn-hover-bg: #7c3aed;
+	--btn-hover-color: #fff;
+	--card-border: rgba(255, 255, 255, 0.1);
+	--scroll-track: #0b1220;
+	--scroll-thumb: #7c3aed;
+}
+
+body.light {
+	--bg: #f8fafc;
+	--card-bg: #fff;
+	--text: #0f1724;
+	--card-border: #cbd5e1;
+	--scroll-track: #f1f5f9;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: var(--bg);
+	color: var(--text);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.card {
+	background: var(--card-bg);
+	border: 1px solid var(--card-border);
+	border-radius: 12px;
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 320px;
+	height: 150px;
+	transition: 0.3s;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.category {
+	color: var(--category);
+	font-weight: 600;
+}
+
+.counter {
+	font-size: 12px;
+	color: var(--counter);
+}
+
+.fact-text {
+	overflow-y: auto;
+	flex: 1;
+	margin-bottom: 6px;
+}
+
+.copy-row {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+}
+
+.copy-btn,
+.theme-btn,
+.copy-row select {
+	background: var(--btn-bg);
+	color: var(--counter);
+	border: none;
+	border-radius: 6px;
+	padding: 5px 8px;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.2s;
+}
+
+.copy-btn:hover,
+.theme-btn:hover,
+.copy-row select:hover {
+	background: var(--btn-hover-bg);
+	color: var(--btn-hover-color);
+}
+
+.copy-btn[data-tooltip]:hover::after,
+.theme-btn[data-tooltip]:hover::after,
+.copy-row select[data-tooltip]:hover::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	top: -30px;
+	background: var(--btn-hover-bg);
+	color: var(--btn-hover-color);
+	padding: 4px 8px;
+	border-radius: 6px;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.fact-text::-webkit-scrollbar {
+	width: 8px;
+}
+
+.fact-text::-webkit-scrollbar-thumb {
+	background: var(--scroll-thumb);
+	border-radius: 4px;
+}
+
+.fact-text::-webkit-scrollbar-track {
+	background: var(--scroll-track);
+}
+
+.copy-row select {
+	appearance: none;
+	flex: 1;
+}
+
+.copy-row select option {
+	background: var(--card-bg);
+	color: var(--text);
+	padding: 4px 8px;
+}
