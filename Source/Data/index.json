@@ -9,6 +9,9 @@
     { "category": "Food", "text": "Chocolate was once used as currency by the Aztecs." },
     { "category": "Health", "text": "Humans share about 60% of their DNA with bananas." },
     { "category": "Health", "text": "Your stomach gets a new lining every 3–4 days to prevent it from digesting itself." },
+    { "category": "Health", "text": "You produce enough saliva in a lifetime to fill two swimming pools." },
+    { "category": "Health", "text": "Your bones are constantly rebuilding; your entire skeleton replaces itself roughly every 10 years." },
+    { "category": "Health", "text": "Your stomach acid is strong enough to dissolve metal." },
     { "category": "Animals", "text": "Octopuses have three hearts." },
     { "category": "Animals", "text": "Sharks existed before trees." },
     { "category": "Animals", "text": "Bees can recognize human faces." },
@@ -18,5 +21,12 @@
     { "category": "Companies", "text": "Sony’s first product was a rice cooker that didn’t work well, which led them to electronics instead." },
     { "category": "Companies", "text": "Google was originally called ‘Backrub’ because it analyzed backlinks on the web." },
     { "category": "Companies", "text": "Starbucks was named after a character in Moby Dick, not coffee itself." },
-    { "category": "Companies", "text": "Lego was originally a wooden toy company before it became the plastic brick empire." }
+    { "category": "Companies", "text": "Lego was originally a wooden toy company before it became the plastic brick empire." },
+    { "category": "Companies", "text": "Coca-Cola originally contained cocaine when it was created in 1886." },
+    { "category": "Companies", "text": "Facebook was originally called 'TheFacebook' and was only for Harvard students." },
+    { "category": "Companies", "text": "McDonald’s once made bubblegum-flavored broccoli to try to get kids to eat healthy." },
+    { "category": "Companies", "text": "Nike’s iconic swoosh logo was designed by a student for just $35." },
+    { "category": "Colors", "text": "Crayola originally made only 8 colors, including their iconic 'Prussian blue'." },
+    { "category": "Colors", "text": "The color red can make objects appear larger or closer in visual perception." },
+    { "category": "Colors", "text": "Colors can change how we feel: blue can calm, red can increase heart rate, and yellow can boost alertness." }
 ]
