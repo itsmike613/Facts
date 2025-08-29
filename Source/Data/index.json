@@ -1,5 +1,16 @@
 [
-    { "category": "Food", "text": "Honey never spoils." },
+    { "category": "Food", "text": "Honey never spoils because bacteria can’t grow in it." },
     { "category": "Food", "text": "Bananas are berries, but strawberries aren't." },
-    { "category": "Animals", "text": "Octopuses have three hearts." }
+    { "category": "Food", "text": "Carrots were originally purple, not orange." },
+    { "category": "Food", "text": "Bananas don’t grow on trees—they grow on giant herbaceous plants." }
+    { "category": "Health", "text": "Humans share about 60% of their DNA with bananas." },
+    { "category": "Health", "text": "Your stomach gets a new lining every 3–4 days to prevent it from digesting itself." },
+    { "category": "Animals", "text": "Octopuses have three hearts." },
+    { "category": "Companies", "text": "Nintendo started in 1889 as a playing card company." },
+    { "category": "Companies", "text": "Nike was originally called Blue Ribbon Sports when it was founded in 1964." },
+    { "category": "Companies", "text": "Samsung began in 1938 as a small grocery trading store in South Korea." },
+    { "category": "Companies", "text": "Sony’s first product was a rice cooker that didn’t work well, which led them to electronics instead." },
+    { "category": "Companies", "text": "Google was originally called ‘Backrub’ because it analyzed backlinks on the web." },
+    { "category": "Companies", "text": "Starbucks was named after a character in Moby Dick, not coffee itself." },
+    { "category": "Companies", "text": "Lego was originally a wooden toy company before it became the plastic brick empire." }
 ]
