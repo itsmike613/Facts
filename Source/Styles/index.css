@@ -17,6 +17,8 @@ body.light {
 	--card-bg: #fff;
 	--text: #0f1724;
 	--card-border: #cbd5e1;
+	--btn-bg: #f1f5f9;
+    --btn-hover-color: #fff;
 	--scroll-track: #f1f5f9;
 }
 
